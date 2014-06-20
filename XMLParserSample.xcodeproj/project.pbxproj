@@ -21,6 +21,8 @@
 		4CCF4A2E1953BD4900AA04B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF4A101953BD4900AA04B6 /* UIKit.framework */; };
 		4CCF4A361953BD4900AA04B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF4A341953BD4900AA04B6 /* InfoPlist.strings */; };
 		4CCF4A381953BD4900AA04B6 /* XMLParserSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF4A371953BD4900AA04B6 /* XMLParserSampleTests.m */; };
+		4CCF4A431953BDC000AA04B6 /* InfoXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF4A421953BDC000AA04B6 /* InfoXMLElement.m */; };
+		4CCF4A451953C85600AA04B6 /* info.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF4A441953C85600AA04B6 /* info.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		4CCF4A331953BD4900AA04B6 /* XMLParserSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLParserSampleTests-Info.plist"; sourceTree = "<group>"; };
 		4CCF4A351953BD4900AA04B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CCF4A371953BD4900AA04B6 /* XMLParserSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParserSampleTests.m; sourceTree = "<group>"; };
+		4CCF4A411953BDC000AA04B6 /* InfoXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoXMLElement.h; sourceTree = "<group>"; };
+		4CCF4A421953BDC000AA04B6 /* InfoXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoXMLElement.m; sourceTree = "<group>"; };
+		4CCF4A441953C85600AA04B6 /* info.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = info.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,8 @@
 		4CCF4A001953BD4900AA04B6 = {
 			isa = PBXGroup;
 			children = (
+				4CCF4A411953BDC000AA04B6 /* InfoXMLElement.h */,
+				4CCF4A421953BDC000AA04B6 /* InfoXMLElement.m */,
 				4CCF4A121953BD4900AA04B6 /* XMLParserSample */,
 				4CCF4A311953BD4900AA04B6 /* XMLParserSampleTests */,
 				4CCF4A0B1953BD4900AA04B6 /* Frameworks */,
@@ -112,6 +119,7 @@
 		4CCF4A121953BD4900AA04B6 /* XMLParserSample */ = {
 			isa = PBXGroup;
 			children = (
+				4CCF4A441953C85600AA04B6 /* info.xml */,
 				4CCF4A1B1953BD4900AA04B6 /* AppDelegate.h */,
 				4CCF4A1C1953BD4900AA04B6 /* AppDelegate.m */,
 				4CCF4A1E1953BD4900AA04B6 /* Main.storyboard */,
@@ -231,6 +239,7 @@
 				4CCF4A251953BD4900AA04B6 /* Images.xcassets in Resources */,
 				4CCF4A171953BD4900AA04B6 /* InfoPlist.strings in Resources */,
 				4CCF4A201953BD4900AA04B6 /* Main.storyboard in Resources */,
+				4CCF4A451953C85600AA04B6 /* info.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 			files = (
 				4CCF4A231953BD4900AA04B6 /* ViewController.m in Sources */,
 				4CCF4A1D1953BD4900AA04B6 /* AppDelegate.m in Sources */,
+				4CCF4A431953BDC000AA04B6 /* InfoXMLElement.m in Sources */,
 				4CCF4A191953BD4900AA04B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

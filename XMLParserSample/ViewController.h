@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InfoXMLElement.h"
 
 @interface ViewController : UIViewController
+{
+    NSXMLParser *parser;
+    NSMutableArray *xmlElementObjects;
+    NSMutableString *currentAttribute;
+    
+    InfoXMLElement *tempElement;
+}
+
+@property (nonatomic, retain) NSXMLParser *parser;
+@property (nonatomic, retain) NSMutableArray *xmlElementObjects;
+@property (nonatomic, retain) NSMutableString *currentAttribute;
+@property (nonatomic, retain) InfoXMLElement *tempElement;
 
 @end

@@ -1,0 +1,10 @@
+<Contacts>
+<ContactInfo>
+    <FirstName>First 1st</FirstName>
+    <SecondName>First 2nd</SecondName>
+</ContactInfo>
+<ContactInfo>
+    <FirstName>Second 1st</FirstName>
+    <SecondName>Second 2nd</SecondName>
+</ContactInfo>
+</Contacts>
