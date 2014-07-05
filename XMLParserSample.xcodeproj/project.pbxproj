@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3B8B9619683CF900DE703C /* Alkahf-Surah.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B8B9519683CF900DE703C /* Alkahf-Surah.xml */; };
+		4C492CD51954794A00A8C1DD /* Quran.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4C492CD41954794A00A8C1DD /* Quran.xml */; };
+		4CCC05E019564E6D003AC7A1 /* UthmanicHafs1 Ver09.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC05DF19564E6D003AC7A1 /* UthmanicHafs1 Ver09.otf */; };
 		4CCF4A0D1953BD4900AA04B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF4A0C1953BD4900AA04B6 /* Foundation.framework */; };
 		4CCF4A0F1953BD4900AA04B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF4A0E1953BD4900AA04B6 /* CoreGraphics.framework */; };
 		4CCF4A111953BD4900AA04B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF4A101953BD4900AA04B6 /* UIKit.framework */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3B8B9519683CF900DE703C /* Alkahf-Surah.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Alkahf-Surah.xml"; path = "../Alkahf-Surah.xml"; sourceTree = "<group>"; };
+		4C492CD41954794A00A8C1DD /* Quran.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Quran.xml; sourceTree = "<group>"; };
+		4CCC05DF19564E6D003AC7A1 /* UthmanicHafs1 Ver09.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UthmanicHafs1 Ver09.otf"; sourceTree = "<group>"; };
 		4CCF4A091953BD4900AA04B6 /* XMLParserSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParserSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCF4A0C1953BD4900AA04B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CCF4A0E1953BD4900AA04B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				4CCF4A411953BDC000AA04B6 /* InfoXMLElement.h */,
+				4CCC05DF19564E6D003AC7A1 /* UthmanicHafs1 Ver09.otf */,
 				4CCF4A421953BDC000AA04B6 /* InfoXMLElement.m */,
 				4CCF4A121953BD4900AA04B6 /* XMLParserSample */,
 				4CCF4A311953BD4900AA04B6 /* XMLParserSampleTests */,
@@ -119,6 +126,7 @@
 		4CCF4A121953BD4900AA04B6 /* XMLParserSample */ = {
 			isa = PBXGroup;
 			children = (
+				4C3B8B9519683CF900DE703C /* Alkahf-Surah.xml */,
 				4CCF4A441953C85600AA04B6 /* info.xml */,
 				4CCF4A1B1953BD4900AA04B6 /* AppDelegate.h */,
 				4CCF4A1C1953BD4900AA04B6 /* AppDelegate.m */,
@@ -127,6 +135,7 @@
 				4CCF4A221953BD4900AA04B6 /* ViewController.m */,
 				4CCF4A241953BD4900AA04B6 /* Images.xcassets */,
 				4CCF4A131953BD4900AA04B6 /* Supporting Files */,
+				4C492CD41954794A00A8C1DD /* Quran.xml */,
 			);
 			path = XMLParserSample;
 			sourceTree = "<group>";
@@ -236,8 +245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCC05E019564E6D003AC7A1 /* UthmanicHafs1 Ver09.otf in Resources */,
 				4CCF4A251953BD4900AA04B6 /* Images.xcassets in Resources */,
+				4C3B8B9619683CF900DE703C /* Alkahf-Surah.xml in Resources */,
 				4CCF4A171953BD4900AA04B6 /* InfoPlist.strings in Resources */,
+				4C492CD51954794A00A8C1DD /* Quran.xml in Resources */,
 				4CCF4A201953BD4900AA04B6 /* Main.storyboard in Resources */,
 				4CCF4A451953C85600AA04B6 /* info.xml in Resources */,
 			);
@@ -470,6 +482,7 @@
 				4CCF4A3D1953BD4900AA04B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCF4A3E1953BD4900AA04B6 /* Build configuration list for PBXNativeTarget "XMLParserSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +491,7 @@
 				4CCF4A401953BD4900AA04B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
