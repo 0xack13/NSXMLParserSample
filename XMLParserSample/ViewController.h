@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "InfoXMLElement.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 {
     NSXMLParser *parser;
     NSMutableArray *xmlElementObjects;
@@ -22,5 +22,7 @@
 @property (nonatomic, retain) NSMutableArray *xmlElementObjects;
 @property (nonatomic, retain) NSMutableString *currentAttribute;
 @property (nonatomic, retain) InfoXMLElement *tempElement;
+@property (nonatomic, retain) NSMutableArray *greekLetters;
+@property (nonatomic, retain) NSMutableArray *ayaArray;
 
 @end
